@@ -1,0 +1,20 @@
+{
+    "name": "mazur/fingertips",
+    "authors": [
+        {
+            "name": "Vladimir Mazurin",
+            "email": "mazurinv@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/annotations": "^1.12",
+        "symfony/http-foundation": "^5.2",
+        "symfony/http-kernel": "^5.2",
+        "symfony/error-handler": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

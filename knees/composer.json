@@ -1,0 +1,17 @@
+{
+    "name": "mazur/knees",
+    "authors": [
+        {
+            "name": "Vladimir Mazurin",
+            "email": "mazurinv@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
